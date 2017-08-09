@@ -17,7 +17,7 @@ class WooCommerceIntegrationBackend {
 
   /**
    * Print the admin panel content
-   * attached to: woocommerce_product_write_panels action
+   * attached to: woocommerce_product_data_panels action
    */
   public static function product_tab_content() {
     ?>
