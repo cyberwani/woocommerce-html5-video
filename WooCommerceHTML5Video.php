@@ -60,7 +60,7 @@ class WooCommerceHTML5Video {
     // backend stuff
     add_action('woocommerce_product_write_panel_tabs',
       array('\\WooCommerceHTML5Video\\WooCommerceIntegrationBackend', 'product_tab'));
-    add_action('woocommerce_product_write_panels',
+    add_action('woocommerce_product_data_panels',
       array('\\WooCommerceHTML5Video\\WooCommerceIntegrationBackend', 'product_tab_content'));
     add_action('woocommerce_process_product_meta',
       array('\\WooCommerceHTML5Video\\WooCommerceIntegrationBackend', 'product_save_data'), 10, 2);
